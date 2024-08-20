@@ -1,0 +1,25 @@
+Project- Shell Script with GitHub API Integration
+
+In this Script we will get all the users from Github repository which has read access to the repository,
+
+every Organization have multiple repository and repo have multiple collaborators/users 
+so In this script we are demonstrating to get all the users which has access using GITHUB API.
+Using this we script we are avoiding manual work in this case. 
+And now a day’s as a devOps eng  we might have write this king of script.
+
+Prerequisites: Bash, GitHub API
+Reference for github api docs: https://docs.github.com/en/rest?apiVersion=2022-11-28
+
+___________________________________________________________________________
+How to run
+___________________________________________________________________________
+
+1.first you need to export username . (export username="")
+2. then you need to export the token. (export token="")
+then execute the script ....it requires two command line args to execute ------
+
+one is organization name 
+second is repository name
+
+for e.g.  -  ./scriptname org_name repo_name
+
